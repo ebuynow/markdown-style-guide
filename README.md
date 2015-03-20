@@ -1,4 +1,4 @@
-# Style Guidelines: Markdown
+# Markdown Style Guide
 
 This document contains formatting standards for creating readable, consistent
 files using Markdown.
@@ -21,7 +21,7 @@ which would produce decent looking output without looking stupid in vim.
 ## Headings
 
   - Header text must use the `atx-style` with no closing `#` character.
-  - Include a space between the `#` and the text of the Header^[1](#1).
+  - Include a space between the `#` and the text of the Header.
 
     ```
     # Header 1
@@ -156,11 +156,4 @@ Group                     | Domain          | First Appearance
 ShinRa                    | Mako Reactors   | FFVII
 Moogles                   | MogNet          | FFIII
 Vana'diel Chocobo Society | Chocobo Raising | FFXI:TOAU
-
-
-## Footnotes
-
-  1. This is enforced locally through redcarpet2's configuration:
-     `:space_after_headers`.
-     <a name="1"><a>
 
